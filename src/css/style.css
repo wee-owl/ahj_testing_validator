@@ -1,0 +1,137 @@
+@font-face {
+  font-display: swap;
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/abel-regular.woff2') format('woff2');
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  font-family: 'Abel', sans-serif;
+  background-color: #ffffff;
+  cursor: default;
+}
+
+body {
+  position: relative;
+  min-width: 25rem;
+  margin: 0;
+  padding: 2rem;
+}
+
+.cards__title {
+  font-size: 1.3rem;
+  color: #306d30;
+}
+
+.cards__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.cards__item {
+  width: 39px;
+  height: 25px;
+  background-color: #ebebeb;
+}
+
+.visa {
+  background-image: url('https://www.validcreditcardnumber.com/static/img/card-visa.gif');
+  background-position-y: top;
+}
+
+.master {
+  background-image: url('https://www.validcreditcardnumber.com/static/img/card-mastercard.gif');
+  background-position-y: top;
+}
+
+.amex {
+  background-image: url('https://www.validcreditcardnumber.com/static/img/card-amex.gif');
+  background-position-y: top;
+}
+
+.discover {
+  background-image: url('https://www.validcreditcardnumber.com/static/img/card-discover.gif');
+  background-position-y: top;
+}
+
+.jcb {
+  background-image: url('https://www.validcreditcardnumber.com/static/img/card-jcb.gif');
+  background-position-y: top;
+}
+
+.diners_club {
+  background-image: url('https://www.validcreditcardnumber.com/static/img/card-diners.gif');
+  background-position-y: top;
+}
+
+.mir {
+  background-image: url('../img/mir.png');
+  background-position-y: top;
+}
+
+.card {
+  visibility: hidden;
+}
+
+.cards__form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 20rem;
+  gap: 0.5rem;
+}
+
+.cards__input {
+  height: 2rem;
+  padding: 0.5rem;
+  border: 0.1rem solid #306d30;
+  border-radius: 0.3rem;
+}
+
+.cards__input:focus-visible {
+  outline: none;
+  border-color: #c29500;
+}
+
+.cards__button {
+  max-width: 10rem;
+  height: 1.5rem;
+  border: 0.1rem solid #306d30;
+  border-radius: 0.3rem;
+  color: #ffffff;
+  background-color: #5cb85c;
+  cursor: pointer;
+}
+
+.cards__button:active {
+  transform: scale(0.95);
+}
+
+.cards__tooltip {
+  position: absolute;
+  top: -30px;
+  display: none;
+  padding: 3px 10px;
+  border: 1px solid #8b0000;
+  border-radius: 10px;
+  background-color: #ffd8d8;
+}
+
+.cards__tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #8b0000 transparent transparent transparent;
+}

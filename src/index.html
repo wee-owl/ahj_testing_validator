@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="img/favicon.png" type="image/png">
+  <title>Validate Credit Card Numbers</title>
+</head>
+<body>
+  <main>
+    <h1 class="cards__title">Validate Credit Card Numbers</h1>
+    <ul class="cards__list">
+      <li class="cards__item visa">
+        <span class="card" title="Visa">Visa</span>
+      </li>
+      <li class="cards__item master">
+        <span class="card" title="Mastercard">Mastercard</span>
+      </li>
+      <li class="cards__item amex">
+        <span class="card" title="American Express">American Express</span>
+      </li>
+      <li class="cards__item discover">
+        <span class="card" title="Discover">Discover</span>
+      </li>
+      <li class="cards__item jcb">
+        <span class="card" title="JCB">JCB</span>
+      </li>
+      <li class="cards__item diners_club">
+        <span class="card" title="Diners Club">Diners Club</span>
+      </li>
+      <li class="cards__item mir">
+        <span class="card" title="MIR">MIR</span>
+      </li>
+    </ul>
+    <form class="cards__form" novalidate="novalidate">
+      <input class="cards__input" name="card_number" type="text" placeholder="Credit card number">
+      <span class="cards__tooltip">Invalid card number</span>
+      <button class="cards__button" type="button" name="button">Click to Validate</button>
+    </form>
+  </main>
+</body>
+</html>

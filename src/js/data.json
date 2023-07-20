@@ -1,0 +1,37 @@
+[
+  {
+    "title": "MIR",
+    "start": [20, 21, 22, 23, 24, 25, 26, 27, 28, 29],
+    "length": [16]
+  },
+  {
+    "title": "American Express",
+    "start": [34, 37],
+    "length": [15]
+  },
+  {
+    "title": "Diners Club",
+    "start": [30, 36],
+    "length": [14, 16]
+  },
+  {
+    "title": "JCB",
+    "start": [35],
+    "length": [16, 17, 18, 19]
+  },
+  {
+    "title": "Visa",
+    "start": [40, 41, 42, 43, 44, 45, 46, 47, 48, 49],
+    "length": [13, 16, 19]
+  },
+  {
+    "title": "Mastercard",
+    "start": [51, 52, 53, 54, 55],
+    "length": [16]
+  },
+  {
+    "title": "Discover",
+    "start": [60, 62, 64, 65],
+    "length": [16, 17, 18, 19]
+  }
+]
